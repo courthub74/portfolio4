@@ -23,7 +23,7 @@ h1 {
 }
 
 .techs {
-  background-color: black;
+  background-color: grey;
   padding: 10px;
   clear: both;
 }
@@ -33,3 +33,14 @@ h1 {
   color: white;
 }
 
+.skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.skill-item {
+  border-right: 1px solid black;
+  padding: 20px;
+  height: 300px;
+  text-align: center;
+}

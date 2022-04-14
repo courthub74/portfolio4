@@ -34,7 +34,7 @@ function Home(){
 
                 {/* PHOTO */}
                 <div className='piccy'>
-                    <img src='https://courdevelops.com/media/avatar/ProfilePic.JPG' className='img-fluid rounded-circle' alt='Me'></img>
+                    <img src='https://courdevelops.com/media/avatar/ProfilePic.JPG' width={300} className='img-fluid rounded-circle' alt='Me'></img>
                 </div>
 
 
@@ -51,6 +51,23 @@ function Home(){
                     <Badge bg="light" text="dark">
                         Light
                     </Badge>{' '}
+                </div>
+
+                {/* SOFT SKILLS */}
+
+                <div className='skills'>
+                    <div className='skill-item'>
+                        <h4>Self Starter</h4>
+                        <image src="images/onbutton.png" alt="start"></image>
+                    </div>
+                    <div className='skill-item'>
+                        <h4>Communicator</h4>
+                        {/* <img src='https://cdn.pixabay.com/photo/2012/04/01/12/58/power-23346_960_720.png' alt='selfstart'>Self Starter</img> */}
+                    </div>
+                    <div className='skill-item'>
+                        {/* <img src='https://cdn2.iconfinder.com/data/icons/cars-icons/500/Start_Button-512.png' alt='selfstart'>Self Starter</img> */}
+                        <h4>Customer Service</h4>
+                    </div>
                 </div>
   
         </Container>
