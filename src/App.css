@@ -25,6 +25,7 @@ h1 {
 .techs {
   background-color: black;
   padding: 10px;
+  clear: both;
 }
 
 #techskills {
