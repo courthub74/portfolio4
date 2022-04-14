@@ -27,7 +27,7 @@ function Home(){
                 {/* DESCRIPTION */}
                 <div className='heady'>
                     <h1>Courdevelops </h1>
-                    <h3>Full-Stack Software Company</h3>
+                    <h3>Full-Stack Web Developer</h3>
                                 
                     <p>Code should be easy to read.</p>
                     <p>Apps should be easy to use.</p>
@@ -57,15 +57,15 @@ function Home(){
                 {/* SOFT SKILLS */}
 
                 <div className='skills'>
-                    <div className='skill-item'>
-                        <img src="images/Start_Button-512.webp" height={120} width={120} alt="start"></img>
+                    <div className='skill-item1'>
+                        <img src="images/Start_Button-512.webp" height={130} width={125} alt="start"></img>
                         <h4>Self Starter</h4>
                     </div>
-                    <div className='skill-item'>
+                    <div className='skill-item2'>
                         <img src="images/com.png" height={120} width={95} alt="start"></img>
                         <h4>Communicator</h4>
                     </div>
-                    <div className='skill-item'>
+                    <div className='skill-item3'>
                         <img src="images/customerfocused.png" height={125} width={120} alt="start"></img>
                         <h4>Customer Focused</h4>
                     </div>
