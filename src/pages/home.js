@@ -66,8 +66,8 @@ function Home(){
                         <h4>Communicator</h4>
                     </div>
                     <div className='skill-item'>
-                        <img src="images/customer.png" height={120} width={100} alt="start"></img>
-                        <h4>Customer Service</h4>
+                        <img src="images/customerfocused.png" height={125} width={120} alt="start"></img>
+                        <h4>Customer Focused</h4>
                     </div>
                 </div>
   
