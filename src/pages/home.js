@@ -4,6 +4,7 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
 
+
 function Home(){
     return(
         <>
@@ -42,7 +43,7 @@ function Home(){
         
                 <div className='techs'>
                     <p id="techskills">Tech Skills:</p>
-                    <Badge bg="primary">Primary</Badge> <Badge bg="secondary">Secondary</Badge>{' '}
+                    <Badge bg="primary">Primary</Badge> <Badge bg="dark">Secondary</Badge>{' '}
                     <Badge bg="success">Success</Badge> <Badge bg="danger">Danger</Badge>{' '}
                     <Badge bg="warning" text="dark">
                         Warning
@@ -57,15 +58,15 @@ function Home(){
 
                 <div className='skills'>
                     <div className='skill-item'>
+                        <img src="images/Start_Button-512.webp" height={120} width={120} alt="start"></img>
                         <h4>Self Starter</h4>
-                        <image src="images/onbutton.png" alt="start"></image>
                     </div>
                     <div className='skill-item'>
+                        <img src="images/com.png" height={120} width={95} alt="start"></img>
                         <h4>Communicator</h4>
-                        {/* <img src='https://cdn.pixabay.com/photo/2012/04/01/12/58/power-23346_960_720.png' alt='selfstart'>Self Starter</img> */}
                     </div>
                     <div className='skill-item'>
-                        {/* <img src='https://cdn2.iconfinder.com/data/icons/cars-icons/500/Start_Button-512.png' alt='selfstart'>Self Starter</img> */}
+                        <img src="images/customer.png" height={120} width={100} alt="start"></img>
                         <h4>Customer Service</h4>
                     </div>
                 </div>
