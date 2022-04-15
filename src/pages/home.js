@@ -29,8 +29,8 @@ function Home(){
                     <h1>Courdevelops </h1>
                     <h3>Full-Stack Web Developer</h3>
                                 
-                    <p>Code should be easy to read.</p>
-                    <p>Apps should be easy to use.</p>
+                    <p>Code should be easy to read. Apps should be easy to use.</p>
+                    
                 </div>
 
                 {/* PHOTO */}
@@ -40,7 +40,6 @@ function Home(){
 
 
                 {/* TECH SKILLS */}
-        
                 <div className='techs'>
                     <p id="techskills">Tech Skills:</p>
                     <Badge bg="primary">Primary</Badge> <Badge bg="dark">Secondary</Badge>{' '}
@@ -55,8 +54,8 @@ function Home(){
                 </div>
 
                 {/* SOFT SKILLS */}
-
                 <div className='skills'>
+                    <h1 id='softskillstitle'>Soft Skills</h1>
                     <div className='skill-item1'>
                         <img src="images/Start_Button-512.webp" height={130} width={125} alt="start"></img>
                         <h4>Self Starter</h4>
@@ -67,9 +66,20 @@ function Home(){
                     </div>
                     <div className='skill-item3'>
                         <img src="images/customerfocused.png" height={125} width={120} alt="start"></img>
-                        <h4>Customer Focused</h4>
+                        <h4>User Experience Focused</h4>
                     </div>
                 </div>
+
+                {/* PORTFOLIO */}
+                <div className='portfolio'>
+                    <h1 id='portfoliotitle'>Portfolio</h1>
+                    <div className='jobs'>
+                        <h2>Project #1</h2>
+                        <p>This is the description of project #1.</p>
+                    </div>
+                </div>
+
+                {/* TESTIMONIALS */}
   
         </Container>
      </>
