@@ -9,29 +9,46 @@ h1 {
   border-radius: 10%;
 }
 
+#headname {
+  border: 2px solid white;
+  border-radius: 15%;
+  padding: 2px;
+  font-size: large;
+}
+
 .heady {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+  text-align: left;
+  margin-top: 50px;
   flex-direction: column;
   float: left;
+  font-size: large;
 }
 
 .piccy {
   float: right;
   padding: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .techs {
   background-color: grey;
   padding: 10px;
   clear: both;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;;
 }
 
 #techskills {
-  float: left;
+  font-size: medium;
   color: white;
+  border: 3px solid white;
+  border-radius: 15%;
+  padding: 2px;
 }
 
 .skills {
@@ -63,20 +80,32 @@ h1 {
 }
 
 #softskillstitle {
-  height: 70px;
+  font-size: x-large;
+  height: 40px;
+  width: 150px;
 }
 
+.portfolio {
+  padding-left: 18px;
+}
 
-#accordy {
-  color: grey;
+#portfoliotitle {
+  font-size: x-large;
+  height: 40px;
+  width: 150px;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px 20px 20px 100px;
   text-align: center;
-  border: 5px solid grey;
+  color: grey;
 }
 
-#accordyfont {
+.jobs a {
+  text-decoration: none;
   color: grey;
-  font-weight: bolder;
-  font-size: larger;
 }
 
 h4 {
@@ -86,12 +115,13 @@ h4 {
 .testimonials {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 10px 30px 30px 30px;
+  padding: 10px 30px 30px 20px;
 }
 
 #testimonialstitle {
-  height: 80px;
-  padding: 10px;
+  font-size: x-large;
+  height: 40px;
+ 
 }
 
 .testimonial-item1 {

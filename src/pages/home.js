@@ -2,7 +2,7 @@ import {React} from 'react';
 import '../App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Navbar, Nav, Container, Badge, Accordion } from 'react-bootstrap';
+import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
 
 
 function Home(){
@@ -13,7 +13,7 @@ function Home(){
         <Container className='mama'>
             <Navbar bg="secondary" variant="dark">
             <Container>
-                <Navbar.Brand href="#">CourDevelops</Navbar.Brand>
+                <Navbar.Brand><span id="headname">CourDevelops</span></Navbar.Brand>
                 <Nav>
                     <Nav.Link href='#'>Home</Nav.Link>
                     <Nav.Link href='#'>Blog</Nav.Link>
@@ -26,33 +26,35 @@ function Home(){
             
                 {/* DESCRIPTION */}
                 <div className='heady'>
-                    <h1>Courdevelops </h1>
-                    <h3>Full-Stack Web Developer</h3>
-                                
-                    <p>Code should be easy to read. Apps should be easy to use.</p>
+                    
+                    <p>My name is Courtney Jacobs. I am a <b>Full-Stack Web Developer</b></p>
+                    <p>I specialize in backend development, web-scraping, logins, UX/UI and RestAPI Development.</p>
+                    <p>CourDevelops is the name of my software making company. I believe that code</p>
+                    <p>should be easy to read and apps should be easy to use.</p>
+                    
                     
                 </div>
 
                 {/* PHOTO */}
                 <div className='piccy'>
-                    <img src='https://courdevelops.com/media/avatar/ProfilePic.JPG' width={300} height={200} className='img-fluid rounded-circle' alt='Me'></img>
+                    <img src='https://courdevelops.com/media/avatar/ProfilePic.JPG' width={200} height={100} className='img-fluid rounded-circle' alt='Me'></img>
                 </div>
 
 
                 {/* TECH SKILLS */}
                 <div className='techs'>
-                    <p id="techskills">Tech Skills:</p>
-                    <Badge bg="primary">Primary</Badge> <Badge bg="dark">Secondary</Badge>{' '}
-                    <Badge bg="success">Success</Badge> <Badge bg="danger">Danger</Badge>{' '}
+                    <p id="techskills">Tech Stack</p>
+                    <Badge bg="primary">HTML</Badge> <Badge bg="dark">CSS</Badge>{' '}
+                    <Badge bg="success">Python</Badge> <Badge bg="danger">Django</Badge>{' '}
                     <Badge bg="warning" text="dark">
-                        Warning
+                        JavaScript
                     </Badge>{' '}
-                    <Badge bg="info">Info</Badge>{' '}
+                    <Badge bg="info">Docker</Badge>{' '}
                     <Badge bg="light" text="dark">
-                        Light
+                        NodeJS
                     </Badge>{' '}
                 </div>
-
+                <br></br>
                 {/* SOFT SKILLS */}
                 <div className='skills'>
                     <h1 id='softskillstitle'>Soft Skills</h1>
@@ -70,31 +72,24 @@ function Home(){
                     </div>
                 </div>
 
+                <hr></hr>
+
                 {/* PORTFOLIO */}
                 <div className='portfolio'>
                     <h1 id='portfoliotitle'>Portfolio</h1> 
                     <br></br>
                     <div className='jobs'>
-                        <Accordion>
-                            <Accordion.Item id="accordy" eventKey="0">
-                                <Accordion.Header><h3 id='accordyfont'>Project #1</h3></Accordion.Header>
-                                <Accordion.Body>
-                                <p>The Description of Project #1</p>
-                                <a href="w3c.com">The Link to Project #1</a>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <br></br>
-                            <Accordion.Item id="accordy" eventKey="1">
-                                <Accordion.Header><h3 id='accordyfont'>Project #2</h3></Accordion.Header>
-                                <Accordion.Body>
-                                <p>The Description of Project #2</p>
-                                <a href="w3c.com">The Link to Project #2</a>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </Accordion>
+                        <h3 className='projecttitle'>Project #1</h3>
+                            <p>The Description of Project #1</p>
+                            <a href="w3c.com">The Link to Project #1</a>
+                            <br></br><br></br>
+                            
+                        <h3 className='projecttitle'>Project #2</h3>
+                            <p>The Description of Project #2</p>
+                            <a href="w3c.com">The Link to Project #2</a>
                     </div>
                 </div>
-                <br></br><br></br>
+               <hr></hr>
                 {/* TESTIMONIALS */}
                 <div className='testimonials'>
                     <h1 id='testimonialstitle'>Testimonials</h1>
