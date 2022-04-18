@@ -9,16 +9,16 @@ function Home(){
     return(
         <>
 
-        {/* NAVBAR */}
+        {/* NAVBAR (COMPONENT) */}
         <Container className='mama'>
             <Navbar bg="secondary" variant="dark">
             <Container>
                 <Navbar.Brand><span id="headname">CourDevelops</span></Navbar.Brand>
                 <Nav>
-                    <Nav.Link href='#'>Home</Nav.Link>
-                    <Nav.Link href='#'>Blog</Nav.Link>
-                    <Nav.Link href='#'>Portfolio</Nav.Link>
-                    <Nav.Link href='#'>Resume</Nav.Link>
+                    <Nav.Link href='/'>Home</Nav.Link>
+                    <Nav.Link href='/blog'>Blog</Nav.Link>
+                    <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+                    <Nav.Link href="/resume">Resume</Nav.Link>
                 </Nav>
             </Container>
             </Navbar>
@@ -44,17 +44,20 @@ function Home(){
                 {/* TECH SKILLS */}
                 <div className='techs'>
                     <p id="techskills">Tech Stack</p>
-                    <Badge bg="primary">HTML</Badge> <Badge bg="dark">CSS</Badge>{' '}
-                    <Badge bg="success">Python</Badge> <Badge bg="danger">Django</Badge>{' '}
-                    <Badge bg="warning" text="dark">
-                        JavaScript
-                    </Badge>{' '}
-                    <Badge bg="info">Docker</Badge>{' '}
-                    <Badge bg="light" text="dark">
-                        NodeJS
-                    </Badge>{' '}
+                    
+                        <Badge id="smalltext" bg="primary">HTML</Badge> <Badge id="smalltext" bg="dark">CSS</Badge>{' '}
+                        <Badge id="smalltext" bg="danger">Python</Badge> <Badge id="smalltext" bg="success">Django</Badge>{' '}
+                        <Badge id="smalltext" bg="warning" text="dark">
+                            JavaScript
+                        </Badge>{' '}
+                        <Badge id="smalltext" bg="info">Docker</Badge>{' '}
+                        <Badge id="smalltext" bg="light" text="dark">
+                            NodeJS
+                        </Badge>{' '}
+                    
                 </div>
                 <br></br>
+
                 {/* SOFT SKILLS */}
                 <div className='skills'>
                     <h1 id='softskillstitle'>Soft Skills</h1>
@@ -81,14 +84,28 @@ function Home(){
                     <div className='jobs'>
                         <h3 className='projecttitle'>Project #1</h3>
                             <p>The Description of Project #1</p>
-                            <a href="w3c.com">The Link to Project #1</a>
+                            <a target="blank" href="https://w3c.com">The Link to Project #1</a>
                             <br></br><br></br>
                             
                         <h3 className='projecttitle'>Project #2</h3>
                             <p>The Description of Project #2</p>
-                            <a href="w3c.com">The Link to Project #2</a>
+                            <a target="blank" href="https://w3c.com">The Link to Project #2</a>
+                            <br></br><br></br>
+
+                        <h3 className='projecttitle'>Project #3</h3>
+                            <p>The Description of Project #3</p>
+                            <a target="blank" href="https://w3c.com">The Link to Project #3</a>
                     </div>
                 </div>
+
+                <hr></hr>
+
+                {/* CERTIFICATES */}
+                <div className='certy'>
+                <h3 id='certskills'>Certificates</h3>
+                    <img id="certpic"src='images/cleverpro.png' width={500} height={300} alt='Me'></img>
+                </div>
+
                <hr></hr>
                 {/* TESTIMONIALS */}
                 <div className='testimonials'>
@@ -110,6 +127,20 @@ function Home(){
                     </div>
                     
                 </div>
+
+                {/* FOOTER (COMPONENT) */}
+                    <Navbar bg="secondary" variant="dark">
+                    <Container>
+                        
+                        <Nav>
+                            <Nav.Link href='#'>Facebook</Nav.Link>
+                            <Nav.Link href='#'>Instagram</Nav.Link>
+                            <Nav.Link href='#'>LinkedIn</Nav.Link>
+                            <Nav.Link href='#'>GitHub</Nav.Link>
+                        </Nav>
+                        <Navbar.Brand><span id="headname">CourDevelops</span></Navbar.Brand>
+                    </Container>
+                    </Navbar>
   
         </Container>
      </>
