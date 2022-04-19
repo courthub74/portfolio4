@@ -2,7 +2,7 @@ import {React} from 'react';
 import '../App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
+import { Navbar, Nav, Container, Badge, Row, Col, Form, Button } from 'react-bootstrap';
 
 
 function Home(){
@@ -107,6 +107,7 @@ function Home(){
                 </div>
 
                <hr></hr>
+
                 {/* TESTIMONIALS */}
                 <div className='testimonials'>
                     <h1 id='testimonialstitle'>Testimonials</h1>
@@ -126,6 +127,34 @@ function Home(){
                         <p>"This Programmer is Great. I will hire him again"</p>
                     </div>
                     
+                </div>
+
+                <hr></hr>
+
+                {/* CONTACT */}
+                <div className='contact'>
+                    <h1 className='contacttitle'>Contact:</h1>
+                    <Form>
+                        <Row>
+                            <Col>
+                                <Form.Control placeholder="First name" />
+                            </Col>
+                            <Col>
+                                <Form.Control placeholder="Last name" />
+                            </Col>
+                            <Col>
+                                <Form.Control type="email" placeholder="Enter email" />
+                            </Col>
+                            <Col>
+                                <Form.Control type="phone" placeholder="Enter phone" />
+                            </Col>
+                            <Col>
+                            <Button variant="secondary" type="submit">
+                                Submit
+                            </Button>
+                            </Col>
+                        </Row>
+                        </Form>
                 </div>
 
                 {/* FOOTER (COMPONENT) */}

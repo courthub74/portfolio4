@@ -202,3 +202,20 @@ h4 {
 #ports {
   padding-top: 50px;
 }
+
+/* CONTACT */
+.contact{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px 30px 30px 20px;
+}
+
+.contacttitle {
+  color: black;
+  font-size: X-large;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15%; 
+  width: 180px;
+  height: 40px;
+}
