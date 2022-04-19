@@ -103,7 +103,7 @@ function Home(){
                 {/* CERTIFICATES */}
                 <div className='certy'>
                 <h3 id='certskills'>Certificates</h3>
-                    <img id="certpic"src='images/cleverpro.png' width={500} height={300} alt='Me'></img>
+                    <img id="certpic"src='images/cleverprotwo.png' width={500} height={300} alt='Me'></img>
                 </div>
 
                <hr></hr>
