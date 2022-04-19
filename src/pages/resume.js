@@ -21,7 +21,7 @@ function Resume() {
             <div className='resume'>
                 <h3 id="resume">Resume</h3>
                 <div id="resumephoto">
-                    <img src='images/resume.png' width={700} height={800} alt='resume'></img>
+                    <img src='images/resumetwo.png' width={700} height={800} alt='resume'></img>
                 </div> 
             </div>
             </Container>
